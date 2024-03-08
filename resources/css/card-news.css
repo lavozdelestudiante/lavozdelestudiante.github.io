@@ -1,0 +1,122 @@
+
+/* container general */
+.news-container {
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+/* card section */
+.card {
+    width: 150px;
+    height: 220px;
+    margin: 1.2vw; /*2.2vw : movil*/
+    transition: 0.4s;
+    outline: 1px solid #77CCFF;
+    filter: brightness(90%);
+    border-radius: 2%;
+    background-color: #444;
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+
+/* infografic */
+.info {
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 4%;
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    bottom: 0;
+    z-index: 90;
+    transition: 0.5s;
+}
+.info h2 {
+    font-size: 15px;
+    font-weight: bold;
+	margin: 10px;
+	color: #Fc8;
+    display: flex;
+    justify-content: center;
+}
+.info hr {
+	margin: 4px;
+	margin-bottom: 14px;
+	color: #4F8
+}
+.info span {
+    margin: 10px;
+    font-size: 64%;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-around;
+}
+.info a {
+    height: 98%;
+    width: 98%;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #00F;
+    background-color: #FFF;
+    border-radius: 4%;
+    border: 1px solid #58F;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.5s;
+}
+.info .button {
+    height: 22px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    margin: 28%;
+    margin-bottom: 12px;
+}
+
+
+/* effect(hover) */
+.card:hover {
+    transform: scale(1.1);
+    filter: brightness(110%);
+    outline: 1px solid rgb(7, 198, 223);
+    box-shadow: 0 0 12px rgb(7, 198, 223);
+    border-radius: 4%;
+}
+.card:hover .info {
+    opacity: 1;
+    visibility: visible;
+}
+.card:hover img {
+    border-radius: 4%;
+}
+
+.info a:hover {
+    height: 98%;
+    width: 98%;
+    transform: scale(1.2);
+    text-decoration: none;
+    box-shadow: 0 0 8px #0FD;
+    color: #FF0;
+    background-color: #224;
+    border-radius: 4%;
+    border: 0.8px solid #2F8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+

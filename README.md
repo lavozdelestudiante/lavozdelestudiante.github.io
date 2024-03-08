@@ -1,11 +1,5 @@
-
-# Proyecto - La Voz Del Estudianted
-
-------
+#    Proyecto - La Voz Del Estudiante
+--------------------------------------------------------
 *Descripcion*
 - Este proyecto es realizacion digital del periodico
-------
-
-
-
-
+--------------------------------------------------------

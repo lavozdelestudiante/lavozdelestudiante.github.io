@@ -1,10 +1,9 @@
 
-# Proyecto - La Voz Del Estudiante
-### Colegio Jesus El Maestro : 6to de Segundaria Vespectino
+# Proyecto - La Voz Del Estudianted
 
 ------
 *Descripcion*
-- Este proyecto es realizacion digital del periodico bajo el mandato del distrito educativo de Republica Dominicana 2023-2024
+- Este proyecto es realizacion digital del periodico
 ------
 
 
